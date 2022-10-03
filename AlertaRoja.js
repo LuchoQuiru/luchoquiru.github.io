@@ -1,4 +1,4 @@
-class MiComponente extends HTMLElement{
+class alertaRoja extends HTMLElement{
 
     constructor(){
         super();
@@ -6,4 +6,4 @@ class MiComponente extends HTMLElement{
     }
 }
 
-customElements.define("alerta-roja", MiComponente);
+customElements.define("alerta-roja", alertaRoja);
